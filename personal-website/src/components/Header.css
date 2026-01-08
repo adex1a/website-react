@@ -12,3 +12,30 @@ header {
 .Header-title {
   padding: 8px;
 }
+
+.Header-navbarContainer {
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.Header-navbarLink {
+  padding: 8px;
+  display: inline-block;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.Header-navbarLink:hover {
+  background-color: grey;
+  color: black;
+}
+
+.Header-navbarLink:visited {
+  text-decoration: none;
+  color: aliceblue;
+}
