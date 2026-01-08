@@ -1,14 +1,11 @@
 #root {
-  /* max-width: 1280px; */
-  min-height: 100vh;
-  /* max-width: 100vw; */
+  /* min-height: 100vh; */
   margin: 0;
   padding: 0;
   text-align: center;
   box-sizing: border-box;
-  width: 100vw;
-  display: unset;
-  /* overflow-x: hidden; PROBLEM: sticky wont work */
+  max-width: 100%;
+  width: 100%;
 }
 
 .App-container {
@@ -17,5 +14,4 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  min-height: 100vh;
 }
