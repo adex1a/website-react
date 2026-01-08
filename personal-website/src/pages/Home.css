@@ -1,7 +1,7 @@
 .bg {
   background-image: url(../assets/image3.png);
-  min-height: 100%;
-  min-width: 100%;
+  /* min-height: 100%;
+  min-width: 100%; */
   flex: 1;
   animation: slide 90s linear infinite;
   /* position: absolute;

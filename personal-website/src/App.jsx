@@ -7,12 +7,14 @@ import { Route, Routes } from "react-router-dom";
 import NotFound from "./NotFound.jsx";
 import Home from "./pages/Home";
 import Header from "./components/Header.jsx";
+import NavBar from "./components/NavBar.jsx";
 
 function App() {
   return (
     <>
       <div className="App-container">
         <Header />
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
