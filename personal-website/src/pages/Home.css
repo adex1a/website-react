@@ -2,7 +2,7 @@
   background-image: url(../assets/image3.png);
   flex: 1;
   animation: slide 320s linear infinite;
-  z-index: -1;
+  z-index: 100; /*idk why but this messes w ordering? i thought neg number meant lower priority but idk*/
   display: flex;
   flex-direction: column;
 }
@@ -64,4 +64,29 @@ aside {
 
 .Home-smallText {
   font-size: 20px;
+}
+
+a {
+  width: fit-content;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: #6a9fc8;
+}
+
+/* a:visited {
+  color: #676ab6;
+} */
+
+a:active {
+  color: #290547;
+}
+
+.Home-contactList {
+  padding: 0;
+  margin-top: 0;
 }
