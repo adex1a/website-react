@@ -1,7 +1,7 @@
 .bg {
   background-image: url(../assets/image3.png);
   flex: 1;
-  animation: slide 320s linear infinite;
+  animation: slide 360s linear infinite;
   z-index: 100; /*idk why but this messes w ordering? i thought neg number meant lower priority but idk*/
   display: flex;
   flex-direction: column;

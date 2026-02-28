@@ -25,6 +25,7 @@ const Music = () => {
         </audio>
         <aside>All I had was Musescore4 and a dream.</aside>
       </section>
+
       <h4>Amused to Death</h4>
       <section className="music">
         <audio controls>
@@ -34,6 +35,7 @@ const Music = () => {
         </audio>
         <aside>Made for the same game, if "Death" didn't give it away.</aside>
       </section>
+
       <h4>Ersatz</h4>
       <section className="music">
         <audio controls>
@@ -48,6 +50,15 @@ const Music = () => {
           Your browser does not support the audio element.
         </audio>
         <aside>First time using the big boy DAW Reaper.</aside>
+      </section>
+
+      <h4>Weird Cat Cafe</h4>
+      <section className="music">
+        <audio controls>
+          <source src="src/assets/catcafe_bgmusic.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <aside>Wrote in one day (on Reaper) for an MIT Web.Lab project.</aside>
       </section>
     </div>
   );
