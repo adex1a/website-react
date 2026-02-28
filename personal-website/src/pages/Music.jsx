@@ -5,7 +5,7 @@ import { Text } from "@mantine/core";
 const Music = () => {
   return (
     <div>
-      <h1 className="Home-text">Music page</h1>
+      {/* <h1 className="Home-text">Music page</h1> */}
       <h2>My Background</h2>
       <Text className="Music-text">
         My music journey began with violin lessons in 3rd grade, and piano soon
@@ -18,7 +18,7 @@ const Music = () => {
       <h2>My Compositions</h2>
 
       <h4>Kiss of Death</h4>
-      <section class="music">
+      <section className="music">
         <audio controls>
           <source src="src/assets/kiss of death.ogg" type="audio/ogg" />
           <source src="src/assets/kiss of death.mp3" type="audio/mpeg" />
@@ -27,7 +27,7 @@ const Music = () => {
         <aside>All I had was Musescore4 and a dream.</aside>
       </section>
       <h4>Amused to Death</h4>
-      <section class="music">
+      <section className="music">
         <audio controls>
           <source src="src/assets/amused to death.ogg" type="audio/ogg" />
           <source src="src/assets/amused to death.mp3" type="audio/mpeg" />
@@ -36,7 +36,7 @@ const Music = () => {
         <aside>Made for the same game, if "Death" didn't give it away.</aside>
       </section>
       <h4>Ersatz</h4>
-      <section class="music">
+      <section className="music">
         <audio controls>
           <source
             src="src/assets/mirror game wip-consolidated.ogg"
