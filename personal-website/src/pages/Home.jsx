@@ -38,7 +38,7 @@ const Home = () => {
             Email
           </a> */}
           <div className="Home-text Home-smallText">
-            - Email: aadya314 [at] mit [dot] edu
+            - Email: me.adexia [at] gmail [dot] com
           </div>
         </ul>
       </div>
