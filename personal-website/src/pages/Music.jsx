@@ -1,12 +1,14 @@
 import React from "react";
 import "./Home.css";
+import "../App.css";
+import "../index.css";
 
 const Music = () => {
   return (
     <div>
       {/* <h1 className="Home-text">Music page</h1> */}
       <h2>My Background</h2>
-      <p className="Music-text">
+      <p className="Pages-paragraphText">
         My music journey began with violin lessons in 3rd grade, and piano soon
         after. While I quit piano four years later, I continued violin
         seriously, joining several youth orchestras and attending Orange County

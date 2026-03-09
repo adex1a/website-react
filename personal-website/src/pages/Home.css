@@ -2,7 +2,7 @@
   background-image: url(../assets/image3.png);
   flex: 1;
   animation: slide 360s linear infinite;
-  z-index: 100; /*idk why but this messes w ordering? i thought neg number meant lower priority but idk*/
+  z-index: 100;
   display: flex;
   flex-direction: column;
 }
@@ -56,7 +56,7 @@ aside {
   text-wrap: wrap;
 }
 
-.Music-text {
+.Pages-paragraphText {
   padding: 0 16px;
   text-wrap: wrap;
   text-align: left;
@@ -68,14 +68,6 @@ aside {
 
 a {
   width: fit-content;
-}
-
-a:link {
-  color: white;
-}
-
-a:hover {
-  color: #6a9fc8;
 }
 
 .Home-contactList {

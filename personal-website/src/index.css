@@ -18,6 +18,15 @@
   /* cursor: url("assets/star.png"), auto; */
 }
 
+@media (prefers-color-scheme: dark) {
+  a:link {
+    color: #c7aff5;
+  }
+  a:hover {
+    color: #6a9fc8;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -58,10 +67,14 @@ button:focus-visible {
     color: #290547;
     background-color: #ca92f7;
   }
-  /* a:hover {
+
+  a:link {
+    color: #621fab;
+  }
+  a:hover {
     color: #747bff;
   }
-  button {
+  /*button {
     background-color: #f9f9f9;
   } */
 }
