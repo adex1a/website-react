@@ -2,6 +2,9 @@ import React from "react";
 import "./Home.css";
 import "../App.css";
 import "../index.css";
+import tla from "./assets/tla_sc.png";
+import cda from "./assets/cda_sc.png";
+import dermimis from "./assets/dermimis_sc.png";
 
 const Games = () => {
   return (
@@ -28,7 +31,7 @@ const Games = () => {
       </h4>
       <section className="music">
         <img
-          src="./assets/cda_sc.png"
+          src={cda}
           alt="A screenshot of the main character, Prince Kat, thinking about how handsome the villain is."
         />
         <aside>
@@ -73,7 +76,7 @@ const Games = () => {
       </h4>
       <section className="music">
         <img
-          src="./assets/dermimis_sc.png"
+          src={dermimis}
           alt="A screenshot of the main character, a taxidermist, and her shy girlfriend."
         />
         <aside>
@@ -109,7 +112,7 @@ const Games = () => {
       </h4>
       <section className="music">
         <img
-          src="./assets/tla_sc.png"
+          src={tla}
           alt="A screenshot of the main character, an awkward high school senior, talking to her best friend."
         />
         <aside>
