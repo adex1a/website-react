@@ -8,9 +8,9 @@ import kod_ogg from "../assets/kiss of death.ogg";
 import kod_mp3 from "../assets/kiss of death.mp3";
 import atd_ogg from "../assets/amused to death.ogg";
 import atd_mp3 from "../assets/amused to death.mp3";
-import ers_ogg from "../assets/mirror game wip-consolidated.ogg";
+import ers_wav from "../assets/mirror game wip-consolidated.wav";
 import ers_mp3 from "../assets/mirror game wip-consolidated.mp3";
-import wcc_mp3 from "..assets/catcafe_bgmusic.mp3";
+import wcc_mp3 from "../assets/catcafe_bgmusic.mp3";
 
 const Music = () => {
   return (
@@ -81,7 +81,7 @@ const Music = () => {
       <h4>Ersatz</h4>
       <section className="music">
         <audio controls>
-          <source src={ers_ogg} type="audio/ogg" />
+          <source src={ers_wav} type="audio/wav" />
           <source src={ers_mp3} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
