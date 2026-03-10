@@ -59,8 +59,8 @@ const Music = () => {
       <h4>Amused to Death</h4>
       <section className="music">
         <audio controls>
-          <source src="src/assets/amused to death.ogg" type="audio/ogg" />
-          <source src="src/assets/amused to death.mp3" type="audio/mpeg" />
+          <source src="./src/assets/amused to death.ogg" type="audio/ogg" />
+          <source src="./src/assets/amused to death.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <aside>
@@ -74,11 +74,11 @@ const Music = () => {
       <section className="music">
         <audio controls>
           <source
-            src="src/assets/mirror game wip-consolidated.ogg"
+            src="./src/assets/mirror game wip-consolidated.ogg"
             type="audio/ogg"
           />
           <source
-            src="src/assets/mirror game wip-consolidated.mp3"
+            src="./src/assets/mirror game wip-consolidated.mp3"
             type="audio/mpeg"
           />
           Your browser does not support the audio element.
@@ -99,7 +99,7 @@ const Music = () => {
       <h4>Weird Cat Cafe</h4>
       <section className="music">
         <audio controls>
-          <source src="src/assets/catcafe_bgmusic.mp3" type="audio/mpeg" />
+          <source src="./src/assets/catcafe_bgmusic.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <aside>
