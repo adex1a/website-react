@@ -19,9 +19,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  a:link {
-    color: #c7aff5;
-  }
   a:hover {
     color: #6a9fc8;
   }
@@ -68,13 +65,7 @@ button:focus-visible {
     background-color: #ca92f7;
   }
 
-  a:link {
-    color: #621fab;
-  }
   a:hover {
     color: #747bff;
   }
-  /*button {
-    background-color: #f9f9f9;
-  } */
 }
