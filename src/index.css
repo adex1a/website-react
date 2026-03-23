@@ -19,6 +19,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  .link:visited {
+    color: #c7aff5;
+  }
   .link:link {
     color: #c7aff5;
   }
@@ -68,12 +71,16 @@ button:focus-visible {
     background-color: #ca92f7;
   }
 
+  .link:visited {
+    color: #621fab;
+  }
   .link:link {
     color: #621fab;
   }
   .link:hover {
     color: #747bff;
   }
+
   /*button {
     background-color: #f9f9f9;
   } */

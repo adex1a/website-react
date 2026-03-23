@@ -61,7 +61,7 @@ const Music = () => {
         <aside>
           All I had was Musescore4 and a dream. Made for CDA, one of the{" "}
           <NavLink className="link" to="/games">
-            games highligted here
+            games highlighted here
           </NavLink>
           . This is probably my favorite song from that game, unsurprising given
           where it shows up in game.
